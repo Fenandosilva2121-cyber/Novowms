@@ -10,6 +10,10 @@
     <style>
         body { font-family: 'Inter', sans-serif; }
     </style>
+    <!-- Previne erro de ReferenceError: process is not defined no navegador -->
+    <script>
+      window.process = { env: {} };
+    </script>
 <script type="importmap">
 {
   "imports": {
@@ -25,5 +29,6 @@
 </head>
 <body class="bg-slate-50 text-slate-900">
     <div id="root"></div>
+    <script type="module" src="index.tsx"></script>
 </body>
 </html>
