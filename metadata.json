@@ -1,0 +1,7 @@
+{
+  "name": "SmartStock Pro - WMS",
+  "description": "Sistema inteligente de gestão de inventário, picking e armazenagem com insights de IA para otimização logística.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
